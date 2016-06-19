@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#efefef">
+    <refractored.controls.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/avatar"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="35dp"
+        local:civ_border_width="2dp"
+        local:civ_border_color="#FFFFFF" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="手机号/邮箱"
+        local:MvxBind="Text Account"
+        android:inputType="text"
+        android:background="@drawable/login_input_top"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        android:password="true"
+        local:MvxBind="Text Password"
+        android:inputType="textPassword"
+        android:background="@drawable/login_input_bottom"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="登  录"
+        local:MvxBind="Click LoginCommand"
+        android:background="@drawable/login_button_selector"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/button1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:text="无法登陆？"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#4cb0f9"
+                android:layout_margin="10dp" />
+            <TextView
+                android:text="新用户注册"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#4cb0f9"
+                android:layout_margin="10dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
