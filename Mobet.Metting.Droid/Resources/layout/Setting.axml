@@ -5,18 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#efefef">
-    <LinearLayout
+    <Toolbar
+        android:background="#4cb0f9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#4cb0f9"
-        android:paddingTop="30dp"
-        android:paddingBottom="10dp">
+        android:minHeight="?android:attr/actionBarSize">
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/arrow_left"
-            android:layout_marginLeft="10dp" />
+            android:src="@drawable/arrow_left" />
         <TextView
             android:text="返回"
             android:layout_width="40dp"
@@ -25,15 +23,14 @@
             android:layout_gravity="center_vertical"
             android:textSize="16dp" />
         <TextView
-            android:text="设置"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#ffffff"
-            android:layout_gravity="center_vertical"
-            android:gravity="center_horizontal"
-            android:layout_marginLeft="-70dp"
-            android:textSize="16dp" />
-    </LinearLayout>
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:textSize="16dp"
+            android:text="设置"
+            android:textColor="@android:color/white" />
+    </Toolbar>
     <TextView
         android:text="个人账户"
         android:layout_width="match_parent"

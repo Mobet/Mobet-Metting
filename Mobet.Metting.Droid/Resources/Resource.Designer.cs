@@ -26,6 +26,55 @@ namespace Mobet.Metting.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.contentViewId = global::Mobet.Metting.Droid.Resource.Attribute.contentViewId;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.fastScrollThumbWidth = global::Mobet.Metting.Droid.Resource.Attribute.fastScrollThumbWidth;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.headerIconDrawable = global::Mobet.Metting.Droid.Resource.Attribute.headerIconDrawable;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.headerId = global::Mobet.Metting.Droid.Resource.Attribute.headerId;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.headerTextColor = global::Mobet.Metting.Droid.Resource.Attribute.headerTextColor;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.ptrHeaderBackground = global::Mobet.Metting.Droid.Resource.Attribute.ptrHeaderBackground;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.pullDownProgressIndicatorId = global::Mobet.Metting.Droid.Resource.Attribute.pullDownProgressIndicatorId;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.pullDownTension = global::Mobet.Metting.Droid.Resource.Attribute.pullDownTension;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.pullEnabled = global::Mobet.Metting.Droid.Resource.Attribute.pullEnabled;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.pullToRefreshText = global::Mobet.Metting.Droid.Resource.Attribute.pullToRefreshText;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.refreshingText = global::Mobet.Metting.Droid.Resource.Attribute.refreshingText;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.releaseToRefreshText = global::Mobet.Metting.Droid.Resource.Attribute.releaseToRefreshText;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Attribute.snapbackDuration = global::Mobet.Metting.Droid.Resource.Attribute.snapbackDuration;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Color.ptrsharp_sb_gradient_end = global::Mobet.Metting.Droid.Resource.Color.ptrsharp_sb_gradient_end;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Color.ptrsharp_sb_gradient_start = global::Mobet.Metting.Droid.Resource.Color.ptrsharp_sb_gradient_start;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Color.ptrsharp_sb_header_text = global::Mobet.Metting.Droid.Resource.Color.ptrsharp_sb_header_text;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Color.ptrsharp_sb_header_text_shadow = global::Mobet.Metting.Droid.Resource.Color.ptrsharp_sb_header_text_shadow;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Dimension.fastscroll_thumb_width = global::Mobet.Metting.Droid.Resource.Dimension.fastscroll_thumb_width;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.progress_medium_holo = global::Mobet.Metting.Droid.Resource.Drawable.progress_medium_holo;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.ptrsharp_serious_business_gradient = global::Mobet.Metting.Droid.Resource.Drawable.ptrsharp_serious_business_gradient;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.serious_business_arrow = global::Mobet.Metting.Droid.Resource.Drawable.serious_business_arrow;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.serious_business_arrow2 = global::Mobet.Metting.Droid.Resource.Drawable.serious_business_arrow2;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.spinner_20_inner_holo = global::Mobet.Metting.Droid.Resource.Drawable.spinner_20_inner_holo;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.spinner_20_outer_holo = global::Mobet.Metting.Droid.Resource.Drawable.spinner_20_outer_holo;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Id.header = global::Mobet.Metting.Droid.Resource.Id.header;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Id.header_container = global::Mobet.Metting.Droid.Resource.Id.header_container;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Id.icon = global::Mobet.Metting.Droid.Resource.Id.icon;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Id.pullDownProgressIndicator = global::Mobet.Metting.Droid.Resource.Id.pullDownProgressIndicator;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Id.text = global::Mobet.Metting.Droid.Resource.Id.text;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Layout.ptrsharp_header = global::Mobet.Metting.Droid.Resource.Layout.ptrsharp_header;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.String.library_name = global::Mobet.Metting.Droid.Resource.String.library_name;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.String.ptrsharp_pull_to_refresh = global::Mobet.Metting.Droid.Resource.String.ptrsharp_pull_to_refresh;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.String.ptrsharp_refreshing = global::Mobet.Metting.Droid.Resource.String.ptrsharp_refreshing;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.String.ptrsharp_release_to_refresh = global::Mobet.Metting.Droid.Resource.String.ptrsharp_release_to_refresh;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Style.HoloProgressMedium = global::Mobet.Metting.Droid.Resource.Style.HoloProgressMedium;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_contentViewId = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_contentViewId;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_fastScrollThumbWidth = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_fastScrollThumbWidth;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_headerIconDrawable = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_headerIconDrawable;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_headerId = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_headerId;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_headerTextColor = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_headerTextColor;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_ptrHeaderBackground = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_ptrHeaderBackground;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_pullDownProgressIndicatorId = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_pullDownProgressIndicatorId;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_pullDownTension = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_pullDownTension;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_pullEnabled = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_pullEnabled;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_pullToRefreshText = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_pullToRefreshText;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_refreshingText = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_refreshingText;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_releaseToRefreshText = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_releaseToRefreshText;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_snapbackDuration = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_snapbackDuration;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::Mobet.Metting.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -106,12 +155,98 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f010003
 			public const int civ_fill_color = 2130771971;
 			
+			// aapt resource value: 0x7f01000c
+			public const int contentViewId = 2130771980;
+			
+			// aapt resource value: 0x7f010017
+			public const int fastScrollThumbWidth = 2130771991;
+			
+			// aapt resource value: 0x7f010015
+			public const int headerIconDrawable = 2130771989;
+			
+			// aapt resource value: 0x7f01000b
+			public const int headerId = 2130771979;
+			
+			// aapt resource value: 0x7f010014
+			public const int headerTextColor = 2130771988;
+			
+			// aapt resource value: 0x7f010013
+			public const int ptrHeaderBackground = 2130771987;
+			
+			// aapt resource value: 0x7f01000d
+			public const int pullDownProgressIndicatorId = 2130771981;
+			
+			// aapt resource value: 0x7f01000f
+			public const int pullDownTension = 2130771983;
+			
+			// aapt resource value: 0x7f010016
+			public const int pullEnabled = 2130771990;
+			
+			// aapt resource value: 0x7f010010
+			public const int pullToRefreshText = 2130771984;
+			
+			// aapt resource value: 0x7f010012
+			public const int refreshingText = 2130771986;
+			
+			// aapt resource value: 0x7f010011
+			public const int releaseToRefreshText = 2130771985;
+			
+			// aapt resource value: 0x7f01000e
+			public const int snapbackDuration = 2130771982;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 			}
 			
 			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050004
+			public const int content_background = 2131034116;
+			
+			// aapt resource value: 0x7f050001
+			public const int ptrsharp_sb_gradient_end = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int ptrsharp_sb_gradient_start = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int ptrsharp_sb_header_text = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int ptrsharp_sb_header_text_shadow = 2131034115;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int fastscroll_thumb_width = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int nav_width = 2131099649;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
 			{
 			}
 		}
@@ -147,25 +282,46 @@ namespace Mobet.Metting.Droid
 			public const int login_input_top = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int setting_layout_item = 2130837513;
+			public const int progress_medium_holo = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int setting_layout_item_first = 2130837514;
+			public const int ptrsharp_serious_business_gradient = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int setting_layout_item_first_pressed = 2130837515;
+			public const int rounded_rect = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int setting_layout_item_first_selector = 2130837516;
+			public const int serious_business_arrow = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int setting_layout_item_pressed = 2130837517;
+			public const int serious_business_arrow2 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int setting_layout_item_selector = 2130837518;
+			public const int setting_layout_item = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int splash = 2130837519;
+			public const int setting_layout_item_first = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int setting_layout_item_first_pressed = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int setting_layout_item_first_selector = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int setting_layout_item_pressed = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int setting_layout_item_selector = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int spinner_20_inner_holo = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int spinner_20_outer_holo = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int splash = 2130837526;
 			
 			static Drawable()
 			{
@@ -186,11 +342,41 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f040001
 			public const int MvxBindingTagUnique = 2130968577;
 			
-			// aapt resource value: 0x7f040003
-			public const int MyButton = 2130968579;
+			// aapt resource value: 0x7f040006
+			public const int button1 = 2130968582;
 			
 			// aapt resource value: 0x7f040002
-			public const int button1 = 2130968578;
+			public const int expandablelist = 2130968578;
+			
+			// aapt resource value: 0x7f040007
+			public const int fragment_container = 2130968583;
+			
+			// aapt resource value: 0x7f040003
+			public const int gridview = 2130968579;
+			
+			// aapt resource value: 0x7f04000a
+			public const int header = 2130968586;
+			
+			// aapt resource value: 0x7f040009
+			public const int header_container = 2130968585;
+			
+			// aapt resource value: 0x7f04000c
+			public const int icon = 2130968588;
+			
+			// aapt resource value: 0x7f040005
+			public const int image_view = 2130968581;
+			
+			// aapt resource value: 0x7f040008
+			public const int ptr_wrapper = 2130968584;
+			
+			// aapt resource value: 0x7f04000b
+			public const int pullDownProgressIndicator = 2130968587;
+			
+			// aapt resource value: 0x7f040004
+			public const int scrollview = 2130968580;
+			
+			// aapt resource value: 0x7f04000d
+			public const int text = 2130968589;
 			
 			static Id()
 			{
@@ -206,13 +392,43 @@ namespace Mobet.Metting.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Login = 2130903040;
+			public const int expandable = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int expandable_group = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Setting = 2130903042;
+			public const int expandable_item = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int grid = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int grid_item = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int image = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Login = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int Main = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int main_layout = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int nav = 2130903049;
+			
+			// aapt resource value: 0x7f03000a
+			public const int nav_item = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int ptrsharp_header = 2130903051;
+			
+			// aapt resource value: 0x7f03000c
+			public const int Setting = 2130903052;
 			
 			static Layout()
 			{
@@ -227,14 +443,26 @@ namespace Mobet.Metting.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int ApplicationName = 2131034114;
+			// aapt resource value: 0x7f070006
+			public const int ApplicationName = 2131165190;
 			
-			// aapt resource value: 0x7f050000
-			public const int Hello = 2131034112;
+			// aapt resource value: 0x7f070004
+			public const int Hello = 2131165188;
 			
-			// aapt resource value: 0x7f050001
-			public const int Login = 2131034113;
+			// aapt resource value: 0x7f070005
+			public const int Login = 2131165189;
+			
+			// aapt resource value: 0x7f070000
+			public const int library_name = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int ptrsharp_pull_to_refresh = 2131165185;
+			
+			// aapt resource value: 0x7f070003
+			public const int ptrsharp_refreshing = 2131165187;
+			
+			// aapt resource value: 0x7f070002
+			public const int ptrsharp_release_to_refresh = 2131165186;
 			
 			static String()
 			{
@@ -249,8 +477,11 @@ namespace Mobet.Metting.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int Theme_DeviceDefaultLightNoActionBar = 2131099648;
+			// aapt resource value: 0x7f080000
+			public const int HoloProgressMedium = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public const int Theme_DeviceDefaultLightNoActionBar = 2131230721;
 			
 			static Style()
 			{
@@ -264,6 +495,60 @@ namespace Mobet.Metting.Droid
 		
 		public partial class Styleable
 		{
+			
+			public static int[] AmazingRefreshsharpWrapper = new int[] {
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988,
+					2130771989,
+					2130771990,
+					2130771991};
+			
+			// aapt resource value: 1
+			public const int AmazingRefreshsharpWrapper_contentViewId = 1;
+			
+			// aapt resource value: 12
+			public const int AmazingRefreshsharpWrapper_fastScrollThumbWidth = 12;
+			
+			// aapt resource value: 10
+			public const int AmazingRefreshsharpWrapper_headerIconDrawable = 10;
+			
+			// aapt resource value: 0
+			public const int AmazingRefreshsharpWrapper_headerId = 0;
+			
+			// aapt resource value: 9
+			public const int AmazingRefreshsharpWrapper_headerTextColor = 9;
+			
+			// aapt resource value: 8
+			public const int AmazingRefreshsharpWrapper_ptrHeaderBackground = 8;
+			
+			// aapt resource value: 2
+			public const int AmazingRefreshsharpWrapper_pullDownProgressIndicatorId = 2;
+			
+			// aapt resource value: 4
+			public const int AmazingRefreshsharpWrapper_pullDownTension = 4;
+			
+			// aapt resource value: 11
+			public const int AmazingRefreshsharpWrapper_pullEnabled = 11;
+			
+			// aapt resource value: 5
+			public const int AmazingRefreshsharpWrapper_pullToRefreshText = 5;
+			
+			// aapt resource value: 7
+			public const int AmazingRefreshsharpWrapper_refreshingText = 7;
+			
+			// aapt resource value: 6
+			public const int AmazingRefreshsharpWrapper_releaseToRefreshText = 6;
+			
+			// aapt resource value: 3
+			public const int AmazingRefreshsharpWrapper_snapbackDuration = 3;
 			
 			public static int[] CircleImageView = new int[] {
 					2130771968,

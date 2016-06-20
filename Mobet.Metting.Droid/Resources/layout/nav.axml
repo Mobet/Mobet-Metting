@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mobet.Droid.Components.AmazingRefresharp.Views.ViewWrapper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wrapper="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ptr_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    wrapper:pullDownTension="0.5"
+    wrapper:snapbackDuration="300"
+    wrapper:headerId="@+id/header_container"
+    wrapper:contentViewId="300"
+                                                            
+                                                            >
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_container"
+    android:background="@drawable/ptrsharp_serious_business_gradient"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom">
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+      <Mobet.Droid.Components.AmazingRefresharp.Views.PullDownProgressIndicator
+          android:id="@+id/pullDownProgressIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <Mobet.Droid.Components.AmazingRefresharp.Views.RotatingPullDownIcon
+            android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@drawable/serious_business_arrow2" />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/HoloProgressMedium" />
+      </Mobet.Droid.Components.AmazingRefresharp.Views.PullDownProgressIndicator>
+      <TextView
+          android:id="@+id/text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:gravity="center"
+          android:textStyle="bold"
+          android:textSize="16sp"
+          android:textColor="@color/ptrsharp_sb_header_text"
+          android:shadowColor="@color/ptrsharp_sb_header_text_shadow"
+          android:shadowDy="1"
+          android:shadowDx="0"
+          android:shadowRadius="0.8"
+          android:text="@string/ptrsharp_pull_to_refresh" />
+    </RelativeLayout>
+  </LinearLayout>
+  <Mobet.Droid.Components.AmazingRefresharp.Widget.ListView
+      android:id="@android:id/list"
+      android:cacheColorHint="@color/content_background"
+      android:divider="#ccc"
+      android:dividerHeight="1dp"
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:layout_marginRight="10dp"
+      android:layout_marginLeft="10dp" />
+</Mobet.Droid.Components.AmazingRefresharp.Views.ViewWrapper>

@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
 using Mobet.Metting.Infrastructure.Services;
 using Mobet.Metting.UI;
+using MvvmCross.Platform;
 
 namespace Mobet.Metting.Models
 {
@@ -58,7 +59,6 @@ namespace Mobet.Metting.Models
                 toastService.Alert("请检查您的账号或密码");
                 return;
             }
-
             ShowViewModel<MainModel>();
         }
 

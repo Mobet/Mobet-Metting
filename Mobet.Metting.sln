@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobet.Metting.Droid", "Mobe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobet.Metting", "Mobet.Metting\Mobet.Metting.csproj", "{D75EFF5F-49C7-4E2F-8BD8-01825A4AB8EA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobet.Droid.Components.AmazingRefresharp", "Mobet.Droid.Components.AmazingRefresharp\Mobet.Droid.Components.AmazingRefresharp.csproj", "{B6CF5919-8AD5-4C5A-AE9D-E2DD4CDDC45C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{D75EFF5F-49C7-4E2F-8BD8-01825A4AB8EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D75EFF5F-49C7-4E2F-8BD8-01825A4AB8EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D75EFF5F-49C7-4E2F-8BD8-01825A4AB8EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6CF5919-8AD5-4C5A-AE9D-E2DD4CDDC45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CF5919-8AD5-4C5A-AE9D-E2DD4CDDC45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CF5919-8AD5-4C5A-AE9D-E2DD4CDDC45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CF5919-8AD5-4C5A-AE9D-E2DD4CDDC45C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
