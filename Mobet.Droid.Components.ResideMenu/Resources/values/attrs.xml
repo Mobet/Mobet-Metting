@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <declare-styleable name="reside_menu">
+    <attr name="mode">
+      <enum name="left" value="0" />
+      <enum name="right" value="1" />
+    </attr>
+    <attr name="view_above" format="reference" />
+    <attr name="view_behind" format="reference" />
+    <attr name="behind_offset" format="dimension" />
+    <attr name="behind_width" format="dimension" />
+    <attr name="behind_scroll_scale" format="float" />
+    <attr name="touch_mode_above">
+      <enum name="margin" value="0" />
+      <enum name="fullscreen" value="1" />
+    </attr>
+    <attr name="touch_mode_behind">
+      <enum name="margin" value="0" />
+      <enum name="fullscreen" value="1" />
+    </attr>
+    <attr name="shadow_drawable" format="reference" />
+    <attr name="shadow_width" format="dimension" />
+    <attr name="fade_enabled" format="boolean" />
+    <attr name="fade_degree" format="float" />
+    <attr name="selector_enabled" format="boolean" />
+    <attr name="selector_drawable" format="reference" />
+  </declare-styleable>
+</resources>
