@@ -27,8 +27,14 @@ namespace Mobet.Droid.Components.AmazingRefresharp.Views
             if (RotationPivotPoint == null) {
                 RotationPivotPoint = new Point(MeasuredWidth / 2, MeasuredHeight / 2);
             }
-
-            RotationDegress = progress * 180.0f;
+            if (progress < 1)
+            {
+                RotationDegress = 0;
+            }
+            if (progress == 1)
+            {
+                RotationDegress = progress * 180.0f;
+            }
         }
 
     }

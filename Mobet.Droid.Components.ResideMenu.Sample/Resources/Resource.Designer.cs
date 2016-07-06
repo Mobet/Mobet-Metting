@@ -26,6 +26,13 @@ namespace Mobet.Droid.Components.ResideMenu.Sample
 		
 		public static void UpdateIdValues()
 		{
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxBind = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.MvxBind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxDropDownItemTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.MvxDropDownItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxGroupItemTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.MvxGroupItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxItemTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.MvxItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxLang = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.MvxLang;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxSource = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.MvxSource;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.MvxTemplate;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.behind_offset = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.behind_offset;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.behind_scroll_scale = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.behind_scroll_scale;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.behind_width = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.behind_width;
@@ -40,6 +47,8 @@ namespace Mobet.Droid.Components.ResideMenu.Sample
 			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.touch_mode_behind = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.touch_mode_behind;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.view_above = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.view_above;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.view_behind = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Attribute.view_behind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.MvvmCrossTagId = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Id.MvvmCrossTagId;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.MvxBindingTagUnique = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Id.MvxBindingTagUnique;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Id.fullscreen = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Id.fullscreen;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Id.left = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Id.left;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Id.margin = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Id.margin;
@@ -47,6 +56,18 @@ namespace Mobet.Droid.Components.ResideMenu.Sample
 			global::Mobet.Droid.Components.ResideMenu.Resource.Id.right = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Id.right;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Id.selected_view = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Id.selected_view;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Layout.reside_menu_main = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Layout.reside_menu_main;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxBinding = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxBinding;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxBinding_MvxBind = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxBinding_MvxBind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxBinding_MvxLang = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxBinding_MvxLang;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxControl = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxControl;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxControl_MvxTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxControl_MvxTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxExpandableListView = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxExpandableListView;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxImageView = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxImageView;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxImageView_MvxSource = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxImageView_MvxSource;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxListView = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxListView;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxListView_MvxItemTemplate = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.MvxListView_MvxItemTemplate;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.reside_menu;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_behind_offset = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.reside_menu_behind_offset;
 			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_behind_scroll_scale = global::Mobet.Droid.Components.ResideMenu.Sample.Resource.Styleable.reside_menu_behind_scroll_scale;

@@ -108,7 +108,7 @@ namespace Mobet.Droid.Components.ResideMenu
 
         public void AttachToActivity(Activity activity, ResideStyle resideStyle)
         {
-            AttachToActivity(activity, resideStyle, false);
+            AttachToActivity(activity, resideStyle, true);
         }
 
         public void AttachToActivity(Activity activity, ResideStyle resideStyle, bool actionbarOverlay)
@@ -124,7 +124,7 @@ namespace Mobet.Droid.Components.ResideMenu
             switch (resideStyle)
             {
                 case ResideStyle.Window:
-                    this.actionbarOverlay = false;
+                    this.actionbarOverlay = true;
                     var decor = (ViewGroup)activity.Window.DecorView;
                     var decorChild = (ViewGroup)decor.GetChildAt(0);
                     // save ActionBar themes that have transparent assets

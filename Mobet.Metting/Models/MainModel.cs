@@ -15,11 +15,8 @@ namespace Mobet.Metting.Models
         public MainModel()
         {
         }
-        public string Tips { get; set; }
-
         public override void Start()
         {
-            this.Tips = "这是主页面";
             base.Start();
         }
     }

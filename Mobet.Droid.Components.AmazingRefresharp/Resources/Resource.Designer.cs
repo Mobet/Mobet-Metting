@@ -133,10 +133,13 @@ namespace Mobet.Droid.Components.AmazingRefresharp
 			public static int serious_business_arrow2 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public static int spinner_20_inner_holo = 2130837508;
+			public static int serious_business_arrow_up = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public static int spinner_20_outer_holo = 2130837509;
+			public static int spinner_20_inner_holo = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public static int spinner_20_outer_holo = 2130837510;
 			
 			static Drawable()
 			{

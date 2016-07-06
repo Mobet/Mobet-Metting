@@ -24,6 +24,10 @@ namespace Mobet.Droid.Components.ResideMenu.Sample.Activitys
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            SetTheme(Android.Resource.Style.ThemeDeviceDefaultLightNoActionBar);
+
+            Window.AddFlags(WindowManagerFlags.TranslucentStatus);
+            Window.AddFlags(WindowManagerFlags.TranslucentNavigation);
             base.OnCreate(savedInstanceState);
 
             SetBehindContentView(Resource.Layout.menu_frame_common);

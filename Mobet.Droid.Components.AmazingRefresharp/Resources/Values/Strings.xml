@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="library_name">AmazingRefreshsharp</string>
-    <string name="ptrsharp_pull_to_refresh">Pull down to refresh...</string>
-    <string name="ptrsharp_release_to_refresh">Release to refresh...</string>
-    <string name="ptrsharp_refreshing">Loading...</string>
+  <string name="library_name">AmazingRefreshsharp</string>
+  <string name="ptrsharp_pull_to_refresh">下拉刷新</string>
+  <string name="ptrsharp_release_to_refresh">释放立即刷新</string>
+  <string name="ptrsharp_refreshing">正在刷新...</string>
 </resources>

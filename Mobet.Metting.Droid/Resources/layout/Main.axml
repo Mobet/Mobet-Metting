@@ -1,36 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:local="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
+    android:layout_height="fill_parent">
     <Toolbar
         android:background="#4cb0f9"
-        android:minWidth="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?android:attr/actionBarSize"
-        android:paddingTop="15dp">
+        android:id="@+id/main_frame_header"
+        android:paddingTop="24dp"
+        android:paddingBottom="10dp">
         <refractored.controls.CircleImageView
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:src="@drawable/avatar"
-            local:civ_border_width="2dp"
-            local:civ_border_color="#FFFFFF"
-            android:layout_marginRight="5dp" />
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/avatar" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:layout_gravity="center"
             android:text="遇见"
-            android:textColor="@android:color/white"
-            android:textSize="16dp" />
+            android:textColor="@android:color/white" />
     </Toolbar>
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</LinearLayout>
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:id="@+id/main_frame_footer"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/skin_tab_icon_conversation_selected"
+            android:id="@+id/main_frame_footer_conversation"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/skin_tab_icon_contact_normal"
+            android:id="@+id/main_frame_footer_contact"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/skin_tab_icon_call_normal"
+            android:id="@+id/main_frame_footer_call"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/skin_tab_icon_plugin_normal"
+            android:id="@+id/main_frame_footer_plugin"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/main_frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_frame_header"
+        android:layout_above="@id/main_frame_footer" />
+</RelativeLayout>

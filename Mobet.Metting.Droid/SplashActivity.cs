@@ -20,10 +20,10 @@ namespace Mobet.Metting.Droid
         {
             base.OnCreate(savedInstanceState);
             // 设置线程等待
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
 
             //启动MainActivity
-            StartActivity(typeof(LoginActivity));
+            StartActivity(typeof(ADActivity));
         }
     }
 }

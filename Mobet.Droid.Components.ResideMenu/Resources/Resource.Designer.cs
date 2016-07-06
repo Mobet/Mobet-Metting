@@ -27,47 +27,68 @@ namespace Mobet.Droid.Components.ResideMenu
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010003
-			public static int behind_offset = 2130771971;
-			
-			// aapt resource value: 0x7f010005
-			public static int behind_scroll_scale = 2130771973;
+			// aapt resource value: 0x7f010000
+			public static int MvxBind = 2130771968;
 			
 			// aapt resource value: 0x7f010004
-			public static int behind_width = 2130771972;
+			public static int MvxDropDownItemTemplate = 2130771972;
 			
-			// aapt resource value: 0x7f01000b
-			public static int fade_degree = 2130771979;
+			// aapt resource value: 0x7f010005
+			public static int MvxGroupItemTemplate = 2130771973;
 			
-			// aapt resource value: 0x7f01000a
-			public static int fade_enabled = 2130771978;
-			
-			// aapt resource value: 0x7f010000
-			public static int mode = 2130771968;
-			
-			// aapt resource value: 0x7f01000d
-			public static int selector_drawable = 2130771981;
-			
-			// aapt resource value: 0x7f01000c
-			public static int selector_enabled = 2130771980;
-			
-			// aapt resource value: 0x7f010008
-			public static int shadow_drawable = 2130771976;
-			
-			// aapt resource value: 0x7f010009
-			public static int shadow_width = 2130771977;
-			
-			// aapt resource value: 0x7f010006
-			public static int touch_mode_above = 2130771974;
-			
-			// aapt resource value: 0x7f010007
-			public static int touch_mode_behind = 2130771975;
+			// aapt resource value: 0x7f010003
+			public static int MvxItemTemplate = 2130771971;
 			
 			// aapt resource value: 0x7f010001
-			public static int view_above = 2130771969;
+			public static int MvxLang = 2130771969;
+			
+			// aapt resource value: 0x7f010006
+			public static int MvxSource = 2130771974;
 			
 			// aapt resource value: 0x7f010002
-			public static int view_behind = 2130771970;
+			public static int MvxTemplate = 2130771970;
+			
+			// aapt resource value: 0x7f01000a
+			public static int behind_offset = 2130771978;
+			
+			// aapt resource value: 0x7f01000c
+			public static int behind_scroll_scale = 2130771980;
+			
+			// aapt resource value: 0x7f01000b
+			public static int behind_width = 2130771979;
+			
+			// aapt resource value: 0x7f010012
+			public static int fade_degree = 2130771986;
+			
+			// aapt resource value: 0x7f010011
+			public static int fade_enabled = 2130771985;
+			
+			// aapt resource value: 0x7f010007
+			public static int mode = 2130771975;
+			
+			// aapt resource value: 0x7f010014
+			public static int selector_drawable = 2130771988;
+			
+			// aapt resource value: 0x7f010013
+			public static int selector_enabled = 2130771987;
+			
+			// aapt resource value: 0x7f01000f
+			public static int shadow_drawable = 2130771983;
+			
+			// aapt resource value: 0x7f010010
+			public static int shadow_width = 2130771984;
+			
+			// aapt resource value: 0x7f01000d
+			public static int touch_mode_above = 2130771981;
+			
+			// aapt resource value: 0x7f01000e
+			public static int touch_mode_behind = 2130771982;
+			
+			// aapt resource value: 0x7f010008
+			public static int view_above = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public static int view_behind = 2130771977;
 			
 			static Attribute()
 			{
@@ -82,23 +103,29 @@ namespace Mobet.Droid.Components.ResideMenu
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f030003
-			public static int fullscreen = 2130903043;
+			// aapt resource value: 0x7f030000
+			public static int MvvmCrossTagId = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public static int left = 2130903041;
-			
-			// aapt resource value: 0x7f030004
-			public static int margin = 2130903044;
+			public static int MvxBindingTagUnique = 2130903041;
 			
 			// aapt resource value: 0x7f030005
-			public static int reside_menu_main = 2130903045;
+			public static int fullscreen = 2130903045;
+			
+			// aapt resource value: 0x7f030003
+			public static int left = 2130903043;
+			
+			// aapt resource value: 0x7f030006
+			public static int margin = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public static int reside_menu_main = 2130903047;
+			
+			// aapt resource value: 0x7f030004
+			public static int right = 2130903044;
 			
 			// aapt resource value: 0x7f030002
-			public static int right = 2130903042;
-			
-			// aapt resource value: 0x7f030000
-			public static int selected_view = 2130903040;
+			public static int selected_view = 2130903042;
 			
 			static Id()
 			{
@@ -129,21 +156,59 @@ namespace Mobet.Droid.Components.ResideMenu
 		public partial class Styleable
 		{
 			
-			public static int[] reside_menu = new int[] {
+			public static int[] MvxBinding = new int[] {
 					2130771968,
-					2130771969,
-					2130771970,
+					2130771969};
+			
+			// aapt resource value: 0
+			public static int MvxBinding_MvxBind = 0;
+			
+			// aapt resource value: 1
+			public static int MvxBinding_MvxLang = 1;
+			
+			public static int[] MvxControl = new int[] {
+					2130771970};
+			
+			// aapt resource value: 0
+			public static int MvxControl_MvxTemplate = 0;
+			
+			public static int[] MvxExpandableListView = new int[] {
+					2130771973};
+			
+			// aapt resource value: 0
+			public static int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			public static int[] MvxImageView = new int[] {
+					2130771974};
+			
+			// aapt resource value: 0
+			public static int MvxImageView_MvxSource = 0;
+			
+			public static int[] MvxListView = new int[] {
 					2130771971,
-					2130771972,
-					2130771973,
-					2130771974,
+					2130771972};
+			
+			// aapt resource value: 1
+			public static int MvxListView_MvxDropDownItemTemplate = 1;
+			
+			// aapt resource value: 0
+			public static int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] reside_menu = new int[] {
 					2130771975,
 					2130771976,
 					2130771977,
 					2130771978,
 					2130771979,
 					2130771980,
-					2130771981};
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988};
 			
 			// aapt resource value: 3
 			public static int reside_menu_behind_offset = 3;

@@ -98,37 +98,104 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fragments\SampleListFragment.cs" />
+    <Compile Include="ADActivity.cs" />
+    <Compile Include="Adapters\ConversaionAdapter.cs" />
+    <Compile Include="Fragments\CallFragment.cs" />
+    <Compile Include="Fragments\ContactFragment.cs" />
+    <Compile Include="Fragments\ConversaionFragment.cs" />
+    <Compile Include="Fragments\ResideMenuFragment.cs" />
+    <Compile Include="Fragments\SettingFragment.cs" />
     <Compile Include="LoginActivity.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Services\Converter\ResourceIdConverter.cs" />
     <Compile Include="Services\DialogService.cs" />
     <Compile Include="Services\ToastService.cs" />
+    <Compile Include="SettingActivity.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="SplashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\Login.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Setting.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\values\Strings.xml" />
-  </ItemGroup>
-  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\arrow.png" />
+    <AndroidResource Include="Resources\drawable\arrow_left.png" />
+    <AndroidResource Include="Resources\drawable\Avatar.jpg" />
+    <AndroidResource Include="Resources\drawable\common_empty_view_bg.png" />
+    <AndroidResource Include="Resources\drawable\common_search_button.xml" />
+    <AndroidResource Include="Resources\drawable\erg.png" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable\login_button.xml" />
+    <AndroidResource Include="Resources\drawable\login_button_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\login_button_selector.xml" />
+    <AndroidResource Include="Resources\drawable\login_input_bottom.xml" />
+    <AndroidResource Include="Resources\drawable\login_input_top.xml" />
+    <AndroidResource Include="Resources\drawable\menu_bg_blue.jpg" />
+    <AndroidResource Include="Resources\drawable\menu_bg_dark.jpg" />
+    <AndroidResource Include="Resources\drawable\menu_bg_dark_deep.jpg" />
+    <AndroidResource Include="Resources\drawable\menu_bg_header.jpg" />
+    <AndroidResource Include="Resources\drawable\menu_bg_night.jpg" />
+    <AndroidResource Include="Resources\drawable\menu_bg_white.jpg" />
+    <AndroidResource Include="Resources\drawable\menu_icon_level.png" />
+    <AndroidResource Include="Resources\drawable\menu_icon_level_sun.png" />
+    <AndroidResource Include="Resources\drawable\menu_icon_qr_code.png" />
+    <AndroidResource Include="Resources\drawable\menu_icon_richstatus.png" />
+    <AndroidResource Include="Resources\drawable\menu_icon_setting.png" />
+    <AndroidResource Include="Resources\drawable\menu_icon_weather.png" />
+    <AndroidResource Include="Resources\drawable\reside_menu_shadow.xml" />
+    <AndroidResource Include="Resources\drawable\rounded_rect.xml" />
+    <AndroidResource Include="Resources\drawable\setting_layout_item.xml" />
+    <AndroidResource Include="Resources\drawable\setting_layout_item_first.xml" />
+    <AndroidResource Include="Resources\drawable\setting_layout_item_first_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\setting_layout_item_first_selector.xml" />
+    <AndroidResource Include="Resources\drawable\setting_layout_item_pressed.xml" />
+    <AndroidResource Include="Resources\drawable\setting_layout_item_selector.xml" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_call_normal.png" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_call_selected.png" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_contact_normal.png" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_contact_selected.png" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_conversation_normal.png" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_conversation_selected.png" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_plugin_normal.png" />
+    <AndroidResource Include="Resources\drawable\skin_tab_icon_plugin_selected.png" />
+    <AndroidResource Include="Resources\drawable\splash.png" />
+    <AndroidResource Include="Resources\layout\login.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\setting.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\main_search_bar.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\menu_frame_personal.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\menu_frame_layout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\main_frame_contact.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\main_frame_call.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\main_frame_plugin.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\common_empty_view.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ad.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\main.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
@@ -138,94 +205,33 @@
       <Project>{b6cf5919-8ad5-4c5a-ae9d-e2dd4cddc45c}</Project>
       <Name>Mobet.Droid.Components.AmazingRefresharp</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Mobet.Droid.Components.ResideMenu\Mobet.Droid.Components.ResideMenu.csproj">
+      <Project>{cbae71e6-868b-4ce1-8e5c-4fa1f4ee06b3}</Project>
+      <Name>Mobet.Droid.Components.ResideMenu</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Mobet.Metting\Mobet.Metting.csproj">
       <Project>{d75eff5f-49c7-4e2f-8bd8-01825a4ab8ea}</Project>
       <Name>Mobet.Metting</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Avatar.jpg" />
+    <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login_button.xml" />
+    <AndroidResource Include="Resources\layout\main_frame_conversation.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login_input_top.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login_input_bottom.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\setting_layout_item.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\arrow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\arrow_left.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\setting_layout_item_first.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login_button_selector.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\login_button_pressed.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\setting_layout_item_selector.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\setting_layout_item_pressed.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\setting_layout_item_first_selector.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\setting_layout_item_first_pressed.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\values\Styles.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\splash.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\expandable.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\expandable_group.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\expandable_item.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\grid.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\grid_item.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\image.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\main_layout.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\nav.axml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\nav_item.xml" />
+    <AndroidResource Include="Resources\layout\main_frame_conversation_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\colors.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\dimens.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\rounded_rect.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

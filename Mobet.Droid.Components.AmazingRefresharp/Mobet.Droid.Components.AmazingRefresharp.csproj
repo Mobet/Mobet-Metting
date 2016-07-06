@@ -78,14 +78,16 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-ldpi\spinner_20_outer_holo.png" />
+  </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\progress_medium_holo.xml" />
-    <AndroidResource Include="Resources\Values\attrs.xml" />
-    <AndroidResource Include="Resources\Values\colors.xml" />
-    <AndroidResource Include="Resources\Values\dimens.xml" />
-    <AndroidResource Include="Resources\Values\Strings.xml" />
-    <AndroidResource Include="Resources\Values\styles.xml" />
+    <AndroidResource Include="Resources\values\attrs.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\ptrsharp_serious_business_gradient.xml" />
@@ -136,10 +138,16 @@
     <AndroidResource Include="Resources\layout\ptrsharp_header.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values-nl\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-ldpi\spinner_20_inner_holo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\values-sv\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-ldpi\serious_business_arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-mdpi\serious_business_arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xhdpi\serious_business_arrow_up.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

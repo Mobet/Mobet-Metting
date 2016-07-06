@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/header_container"
-    android:background="@drawable/ptrsharp_serious_business_gradient"
+    android:background="#292929"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="bottom">
@@ -32,13 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="16sp"
-            android:textColor="@color/ptrsharp_sb_header_text"
-            android:shadowColor="@color/ptrsharp_sb_header_text_shadow"
-            android:shadowDy="1"
-            android:shadowDx="0"
-            android:shadowRadius="0.8"
+            android:textColor="#ffffff"
             android:text="@string/ptrsharp_pull_to_refresh" />
     </RelativeLayout>
 </LinearLayout>

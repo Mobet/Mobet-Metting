@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mobet.Droid.Components.AmazingRefresharp.Views.ViewWrapper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wrapper="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ptr_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    wrapper:pullDownTension="0.5"
+    wrapper:snapbackDuration="300"
+    android:background="#ffffff">
+    <Mobet.Droid.Components.AmazingRefresharp.Widget.ListView
+        android:id="@android:id/list"
+        android:cacheColorHint="@color/content_background"
+        android:divider="#eeeeee"
+        android:dividerHeight="0.5dp"
+        android:background="#ffffff"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" />
+</Mobet.Droid.Components.AmazingRefresharp.Views.ViewWrapper>

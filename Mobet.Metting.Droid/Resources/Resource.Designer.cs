@@ -48,6 +48,7 @@ namespace Mobet.Metting.Droid
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.ptrsharp_serious_business_gradient = global::Mobet.Metting.Droid.Resource.Drawable.ptrsharp_serious_business_gradient;
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.serious_business_arrow = global::Mobet.Metting.Droid.Resource.Drawable.serious_business_arrow;
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.serious_business_arrow2 = global::Mobet.Metting.Droid.Resource.Drawable.serious_business_arrow2;
+			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.serious_business_arrow_up = global::Mobet.Metting.Droid.Resource.Drawable.serious_business_arrow_up;
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.spinner_20_inner_holo = global::Mobet.Metting.Droid.Resource.Drawable.spinner_20_inner_holo;
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Drawable.spinner_20_outer_holo = global::Mobet.Metting.Droid.Resource.Drawable.spinner_20_outer_holo;
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Id.header = global::Mobet.Metting.Droid.Resource.Id.header;
@@ -75,6 +76,63 @@ namespace Mobet.Metting.Droid
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_refreshingText = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_refreshingText;
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_releaseToRefreshText = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_releaseToRefreshText;
 			global::Mobet.Droid.Components.AmazingRefresharp.Resource.Styleable.AmazingRefreshsharpWrapper_snapbackDuration = global::Mobet.Metting.Droid.Resource.Styleable.AmazingRefreshsharpWrapper_snapbackDuration;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxBind = global::Mobet.Metting.Droid.Resource.Attribute.MvxBind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxDropDownItemTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxGroupItemTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxItemTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxLang = global::Mobet.Metting.Droid.Resource.Attribute.MvxLang;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxSource = global::Mobet.Metting.Droid.Resource.Attribute.MvxSource;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.MvxTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.behind_offset = global::Mobet.Metting.Droid.Resource.Attribute.behind_offset;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.behind_scroll_scale = global::Mobet.Metting.Droid.Resource.Attribute.behind_scroll_scale;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.behind_width = global::Mobet.Metting.Droid.Resource.Attribute.behind_width;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.fade_degree = global::Mobet.Metting.Droid.Resource.Attribute.fade_degree;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.fade_enabled = global::Mobet.Metting.Droid.Resource.Attribute.fade_enabled;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.mode = global::Mobet.Metting.Droid.Resource.Attribute.mode;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.selector_drawable = global::Mobet.Metting.Droid.Resource.Attribute.selector_drawable;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.selector_enabled = global::Mobet.Metting.Droid.Resource.Attribute.selector_enabled;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.shadow_drawable = global::Mobet.Metting.Droid.Resource.Attribute.shadow_drawable;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.shadow_width = global::Mobet.Metting.Droid.Resource.Attribute.shadow_width;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.touch_mode_above = global::Mobet.Metting.Droid.Resource.Attribute.touch_mode_above;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.touch_mode_behind = global::Mobet.Metting.Droid.Resource.Attribute.touch_mode_behind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.view_above = global::Mobet.Metting.Droid.Resource.Attribute.view_above;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Attribute.view_behind = global::Mobet.Metting.Droid.Resource.Attribute.view_behind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.MvvmCrossTagId = global::Mobet.Metting.Droid.Resource.Id.MvvmCrossTagId;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.MvxBindingTagUnique = global::Mobet.Metting.Droid.Resource.Id.MvxBindingTagUnique;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.fullscreen = global::Mobet.Metting.Droid.Resource.Id.fullscreen;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.left = global::Mobet.Metting.Droid.Resource.Id.left;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.margin = global::Mobet.Metting.Droid.Resource.Id.margin;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.reside_menu_main = global::Mobet.Metting.Droid.Resource.Id.reside_menu_main;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.right = global::Mobet.Metting.Droid.Resource.Id.right;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Id.selected_view = global::Mobet.Metting.Droid.Resource.Id.selected_view;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Layout.reside_menu_main = global::Mobet.Metting.Droid.Resource.Layout.reside_menu_main;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxBinding = global::Mobet.Metting.Droid.Resource.Styleable.MvxBinding;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxBinding_MvxBind = global::Mobet.Metting.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxBinding_MvxLang = global::Mobet.Metting.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxControl = global::Mobet.Metting.Droid.Resource.Styleable.MvxControl;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxControl_MvxTemplate = global::Mobet.Metting.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxExpandableListView = global::Mobet.Metting.Droid.Resource.Styleable.MvxExpandableListView;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::Mobet.Metting.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxImageView = global::Mobet.Metting.Droid.Resource.Styleable.MvxImageView;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxImageView_MvxSource = global::Mobet.Metting.Droid.Resource.Styleable.MvxImageView_MvxSource;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxListView = global::Mobet.Metting.Droid.Resource.Styleable.MvxListView;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Mobet.Metting.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.MvxListView_MvxItemTemplate = global::Mobet.Metting.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_behind_offset = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_behind_offset;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_behind_scroll_scale = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_behind_scroll_scale;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_behind_width = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_behind_width;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_fade_degree = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_fade_degree;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_fade_enabled = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_fade_enabled;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_mode = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_mode;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_selector_drawable = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_selector_drawable;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_selector_enabled = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_selector_enabled;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_shadow_drawable = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_shadow_drawable;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_shadow_width = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_shadow_width;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_touch_mode_above = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_touch_mode_above;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_touch_mode_behind = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_touch_mode_behind;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_view_above = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_view_above;
+			global::Mobet.Droid.Components.ResideMenu.Resource.Styleable.reside_menu_view_behind = global::Mobet.Metting.Droid.Resource.Styleable.reside_menu_view_behind;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::Mobet.Metting.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Mobet.Metting.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -143,6 +201,15 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f010006
 			public const int MvxTemplate = 2130771974;
 			
+			// aapt resource value: 0x7f01000e
+			public const int behind_offset = 2130771982;
+			
+			// aapt resource value: 0x7f010010
+			public const int behind_scroll_scale = 2130771984;
+			
+			// aapt resource value: 0x7f01000f
+			public const int behind_width = 2130771983;
+			
 			// aapt resource value: 0x7f010001
 			public const int civ_border_color = 2130771969;
 			
@@ -155,44 +222,77 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f010003
 			public const int civ_fill_color = 2130771971;
 			
-			// aapt resource value: 0x7f01000c
-			public const int contentViewId = 2130771980;
-			
-			// aapt resource value: 0x7f010017
-			public const int fastScrollThumbWidth = 2130771991;
-			
-			// aapt resource value: 0x7f010015
-			public const int headerIconDrawable = 2130771989;
-			
-			// aapt resource value: 0x7f01000b
-			public const int headerId = 2130771979;
-			
-			// aapt resource value: 0x7f010014
-			public const int headerTextColor = 2130771988;
-			
-			// aapt resource value: 0x7f010013
-			public const int ptrHeaderBackground = 2130771987;
-			
-			// aapt resource value: 0x7f01000d
-			public const int pullDownProgressIndicatorId = 2130771981;
-			
-			// aapt resource value: 0x7f01000f
-			public const int pullDownTension = 2130771983;
+			// aapt resource value: 0x7f01001a
+			public const int contentViewId = 2130771994;
 			
 			// aapt resource value: 0x7f010016
-			public const int pullEnabled = 2130771990;
+			public const int fade_degree = 2130771990;
 			
-			// aapt resource value: 0x7f010010
-			public const int pullToRefreshText = 2130771984;
+			// aapt resource value: 0x7f010015
+			public const int fade_enabled = 2130771989;
 			
-			// aapt resource value: 0x7f010012
-			public const int refreshingText = 2130771986;
+			// aapt resource value: 0x7f010025
+			public const int fastScrollThumbWidth = 2130772005;
+			
+			// aapt resource value: 0x7f010023
+			public const int headerIconDrawable = 2130772003;
+			
+			// aapt resource value: 0x7f010019
+			public const int headerId = 2130771993;
+			
+			// aapt resource value: 0x7f010022
+			public const int headerTextColor = 2130772002;
+			
+			// aapt resource value: 0x7f01000b
+			public const int mode = 2130771979;
+			
+			// aapt resource value: 0x7f010021
+			public const int ptrHeaderBackground = 2130772001;
+			
+			// aapt resource value: 0x7f01001b
+			public const int pullDownProgressIndicatorId = 2130771995;
+			
+			// aapt resource value: 0x7f01001d
+			public const int pullDownTension = 2130771997;
+			
+			// aapt resource value: 0x7f010024
+			public const int pullEnabled = 2130772004;
+			
+			// aapt resource value: 0x7f01001e
+			public const int pullToRefreshText = 2130771998;
+			
+			// aapt resource value: 0x7f010020
+			public const int refreshingText = 2130772000;
+			
+			// aapt resource value: 0x7f01001f
+			public const int releaseToRefreshText = 2130771999;
+			
+			// aapt resource value: 0x7f010018
+			public const int selector_drawable = 2130771992;
+			
+			// aapt resource value: 0x7f010017
+			public const int selector_enabled = 2130771991;
+			
+			// aapt resource value: 0x7f010013
+			public const int shadow_drawable = 2130771987;
+			
+			// aapt resource value: 0x7f010014
+			public const int shadow_width = 2130771988;
+			
+			// aapt resource value: 0x7f01001c
+			public const int snapbackDuration = 2130771996;
 			
 			// aapt resource value: 0x7f010011
-			public const int releaseToRefreshText = 2130771985;
+			public const int touch_mode_above = 2130771985;
 			
-			// aapt resource value: 0x7f01000e
-			public const int snapbackDuration = 2130771982;
+			// aapt resource value: 0x7f010012
+			public const int touch_mode_behind = 2130771986;
+			
+			// aapt resource value: 0x7f01000c
+			public const int view_above = 2130771980;
+			
+			// aapt resource value: 0x7f01000d
+			public const int view_behind = 2130771981;
 			
 			static Attribute()
 			{
@@ -222,6 +322,9 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f050003
 			public const int ptrsharp_sb_header_text_shadow = 2131034115;
 			
+			// aapt resource value: 0x7f050005
+			public const int status_bar = 2131034117;
+			
 			static Color()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -238,8 +341,17 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f060000
 			public const int fastscroll_thumb_width = 2131099648;
 			
+			// aapt resource value: 0x7f060003
+			public const int list_padding = 2131099651;
+			
 			// aapt resource value: 0x7f060001
 			public const int nav_width = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int reside_menu_offset = 2131099650;
+			
+			// aapt resource value: 0x7f060004
+			public const int shadow_width = 2131099652;
 			
 			static Dimension()
 			{
@@ -264,64 +376,139 @@ namespace Mobet.Metting.Droid
 			public const int Avatar = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int common_empty_view_bg = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int login_button = 2130837508;
+			public const int common_search_button = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int login_button_pressed = 2130837509;
+			public const int erg = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int login_button_selector = 2130837510;
+			public const int Icon = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int login_input_bottom = 2130837511;
+			public const int login_button = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int login_input_top = 2130837512;
+			public const int login_button_pressed = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int progress_medium_holo = 2130837513;
+			public const int login_button_selector = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int ptrsharp_serious_business_gradient = 2130837514;
+			public const int login_input_bottom = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int rounded_rect = 2130837515;
+			public const int login_input_top = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int serious_business_arrow = 2130837516;
+			public const int menu_bg_blue = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int serious_business_arrow2 = 2130837517;
+			public const int menu_bg_dark = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int setting_layout_item = 2130837518;
+			public const int menu_bg_dark_deep = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int setting_layout_item_first = 2130837519;
+			public const int menu_bg_header = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int setting_layout_item_first_pressed = 2130837520;
+			public const int menu_bg_night = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int setting_layout_item_first_selector = 2130837521;
+			public const int menu_bg_white = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int setting_layout_item_pressed = 2130837522;
+			public const int menu_icon_level = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int setting_layout_item_selector = 2130837523;
+			public const int menu_icon_level_sun = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int spinner_20_inner_holo = 2130837524;
+			public const int menu_icon_qr_code = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int spinner_20_outer_holo = 2130837525;
+			public const int menu_icon_richstatus = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int splash = 2130837526;
+			public const int menu_icon_setting = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int menu_icon_weather = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int progress_medium_holo = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int ptrsharp_serious_business_gradient = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int reside_menu_shadow = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int rounded_rect = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int serious_business_arrow = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int serious_business_arrow2 = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int serious_business_arrow_up = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int setting_layout_item = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int setting_layout_item_first = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int setting_layout_item_first_pressed = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int setting_layout_item_first_selector = 2130837538;
+			
+			// aapt resource value: 0x7f020023
+			public const int setting_layout_item_pressed = 2130837539;
+			
+			// aapt resource value: 0x7f020024
+			public const int setting_layout_item_selector = 2130837540;
+			
+			// aapt resource value: 0x7f020025
+			public const int skin_tab_icon_call_normal = 2130837541;
+			
+			// aapt resource value: 0x7f020026
+			public const int skin_tab_icon_call_selected = 2130837542;
+			
+			// aapt resource value: 0x7f020027
+			public const int skin_tab_icon_contact_normal = 2130837543;
+			
+			// aapt resource value: 0x7f020028
+			public const int skin_tab_icon_contact_selected = 2130837544;
+			
+			// aapt resource value: 0x7f020029
+			public const int skin_tab_icon_conversation_normal = 2130837545;
+			
+			// aapt resource value: 0x7f02002a
+			public const int skin_tab_icon_conversation_selected = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int skin_tab_icon_plugin_normal = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int skin_tab_icon_plugin_selected = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int spinner_20_inner_holo = 2130837549;
+			
+			// aapt resource value: 0x7f02002e
+			public const int spinner_20_outer_holo = 2130837550;
+			
+			// aapt resource value: 0x7f02002f
+			public const int splash = 2130837551;
 			
 			static Drawable()
 			{
@@ -342,41 +529,89 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f040001
 			public const int MvxBindingTagUnique = 2130968577;
 			
-			// aapt resource value: 0x7f040006
-			public const int button1 = 2130968582;
-			
-			// aapt resource value: 0x7f040002
-			public const int expandablelist = 2130968578;
-			
 			// aapt resource value: 0x7f040007
-			public const int fragment_container = 2130968583;
-			
-			// aapt resource value: 0x7f040003
-			public const int gridview = 2130968579;
-			
-			// aapt resource value: 0x7f04000a
-			public const int header = 2130968586;
-			
-			// aapt resource value: 0x7f040009
-			public const int header_container = 2130968585;
-			
-			// aapt resource value: 0x7f04000c
-			public const int icon = 2130968588;
+			public const int button_ad_skip = 2130968583;
 			
 			// aapt resource value: 0x7f040005
-			public const int image_view = 2130968581;
+			public const int fullscreen = 2130968581;
 			
-			// aapt resource value: 0x7f040008
-			public const int ptr_wrapper = 2130968584;
+			// aapt resource value: 0x7f040019
+			public const int header = 2130968601;
+			
+			// aapt resource value: 0x7f040018
+			public const int header_container = 2130968600;
+			
+			// aapt resource value: 0x7f04001b
+			public const int icon = 2130968603;
+			
+			// aapt resource value: 0x7f040003
+			public const int left = 2130968579;
+			
+			// aapt resource value: 0x7f040010
+			public const int main_conversation_name = 2130968592;
+			
+			// aapt resource value: 0x7f040011
+			public const int main_conversation_say = 2130968593;
+			
+			// aapt resource value: 0x7f040012
+			public const int main_conversation_time = 2130968594;
+			
+			// aapt resource value: 0x7f04000e
+			public const int main_frame_content = 2130968590;
+			
+			// aapt resource value: 0x7f040009
+			public const int main_frame_footer = 2130968585;
+			
+			// aapt resource value: 0x7f04000c
+			public const int main_frame_footer_call = 2130968588;
 			
 			// aapt resource value: 0x7f04000b
-			public const int pullDownProgressIndicator = 2130968587;
+			public const int main_frame_footer_contact = 2130968587;
 			
-			// aapt resource value: 0x7f040004
-			public const int scrollview = 2130968580;
+			// aapt resource value: 0x7f04000a
+			public const int main_frame_footer_conversation = 2130968586;
 			
 			// aapt resource value: 0x7f04000d
-			public const int text = 2130968589;
+			public const int main_frame_footer_plugin = 2130968589;
+			
+			// aapt resource value: 0x7f040008
+			public const int main_frame_header = 2130968584;
+			
+			// aapt resource value: 0x7f040006
+			public const int margin = 2130968582;
+			
+			// aapt resource value: 0x7f040013
+			public const int menu_fragment_common = 2130968595;
+			
+			// aapt resource value: 0x7f040015
+			public const int menu_frame_footer = 2130968597;
+			
+			// aapt resource value: 0x7f040014
+			public const int menu_frame_header = 2130968596;
+			
+			// aapt resource value: 0x7f040016
+			public const int menu_frame_personal_button_setting = 2130968598;
+			
+			// aapt resource value: 0x7f040017
+			public const int menu_frame_personal_button_weather = 2130968599;
+			
+			// aapt resource value: 0x7f04000f
+			public const int ptr_wrapper = 2130968591;
+			
+			// aapt resource value: 0x7f04001a
+			public const int pullDownProgressIndicator = 2130968602;
+			
+			// aapt resource value: 0x7f04001d
+			public const int reside_menu_main = 2130968605;
+			
+			// aapt resource value: 0x7f040004
+			public const int right = 2130968580;
+			
+			// aapt resource value: 0x7f040002
+			public const int selected_view = 2130968578;
+			
+			// aapt resource value: 0x7f04001c
+			public const int text = 2130968604;
 			
 			static Id()
 			{
@@ -388,47 +623,69 @@ namespace Mobet.Metting.Droid
 			}
 		}
 		
+		public partial class Integer
+		{
+			
+			// aapt resource value: 0x7f090000
+			public const int num_cols = 2131296256;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int expandable = 2130903040;
+			public const int ad = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int expandable_group = 2130903041;
+			public const int common_empty_view = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int expandable_item = 2130903042;
+			public const int login = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int grid = 2130903043;
+			public const int main = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int grid_item = 2130903044;
+			public const int main_frame_call = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int image = 2130903045;
+			public const int main_frame_contact = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int Login = 2130903046;
+			public const int main_frame_conversation = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int Main = 2130903047;
+			public const int main_frame_conversation_item = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int main_layout = 2130903048;
+			public const int main_frame_plugin = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int nav = 2130903049;
+			public const int main_search_bar = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int nav_item = 2130903050;
+			public const int menu_frame_layout = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int ptrsharp_header = 2130903051;
+			public const int menu_frame_personal = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int Setting = 2130903052;
+			public const int ptrsharp_header = 2130903052;
+			
+			// aapt resource value: 0x7f03000d
+			public const int reside_menu_main = 2130903053;
+			
+			// aapt resource value: 0x7f03000e
+			public const int setting = 2130903054;
 			
 			static Layout()
 			{
@@ -442,15 +699,6 @@ namespace Mobet.Metting.Droid
 		
 		public partial class String
 		{
-			
-			// aapt resource value: 0x7f070006
-			public const int ApplicationName = 2131165190;
-			
-			// aapt resource value: 0x7f070004
-			public const int Hello = 2131165188;
-			
-			// aapt resource value: 0x7f070005
-			public const int Login = 2131165189;
 			
 			// aapt resource value: 0x7f070000
 			public const int library_name = 2131165184;
@@ -497,19 +745,19 @@ namespace Mobet.Metting.Droid
 		{
 			
 			public static int[] AmazingRefreshsharpWrapper = new int[] {
-					2130771979,
-					2130771980,
-					2130771981,
-					2130771982,
-					2130771983,
-					2130771984,
-					2130771985,
-					2130771986,
-					2130771987,
-					2130771988,
-					2130771989,
-					2130771990,
-					2130771991};
+					2130771993,
+					2130771994,
+					2130771995,
+					2130771996,
+					2130771997,
+					2130771998,
+					2130771999,
+					2130772000,
+					2130772001,
+					2130772002,
+					2130772003,
+					2130772004,
+					2130772005};
 			
 			// aapt resource value: 1
 			public const int AmazingRefreshsharpWrapper_contentViewId = 1;
@@ -605,6 +853,64 @@ namespace Mobet.Metting.Droid
 			
 			// aapt resource value: 0
 			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] reside_menu = new int[] {
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988,
+					2130771989,
+					2130771990,
+					2130771991,
+					2130771992};
+			
+			// aapt resource value: 3
+			public const int reside_menu_behind_offset = 3;
+			
+			// aapt resource value: 5
+			public const int reside_menu_behind_scroll_scale = 5;
+			
+			// aapt resource value: 4
+			public const int reside_menu_behind_width = 4;
+			
+			// aapt resource value: 11
+			public const int reside_menu_fade_degree = 11;
+			
+			// aapt resource value: 10
+			public const int reside_menu_fade_enabled = 10;
+			
+			// aapt resource value: 0
+			public const int reside_menu_mode = 0;
+			
+			// aapt resource value: 13
+			public const int reside_menu_selector_drawable = 13;
+			
+			// aapt resource value: 12
+			public const int reside_menu_selector_enabled = 12;
+			
+			// aapt resource value: 8
+			public const int reside_menu_shadow_drawable = 8;
+			
+			// aapt resource value: 9
+			public const int reside_menu_shadow_width = 9;
+			
+			// aapt resource value: 6
+			public const int reside_menu_touch_mode_above = 6;
+			
+			// aapt resource value: 7
+			public const int reside_menu_touch_mode_behind = 7;
+			
+			// aapt resource value: 1
+			public const int reside_menu_view_above = 1;
+			
+			// aapt resource value: 2
+			public const int reside_menu_view_behind = 2;
 			
 			static Styleable()
 			{
