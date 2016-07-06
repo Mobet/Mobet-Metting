@@ -9,5 +9,5 @@
         android:layout_height="30dp"
         android:layout_margin="10dp"
         style="?android:attr/borderlessButtonStyle"
-        android:hint="搜索" />
+        android:hint="搜索" /> 
 </LinearLayout>

@@ -24,6 +24,6 @@ namespace Mobet.Metting.Droid
             Window.AddFlags(WindowManagerFlags.TranslucentNavigation);
             base.OnViewModelSet();
             SetContentView(Resource.Layout.login);
-        }
+        } 
     }
 }

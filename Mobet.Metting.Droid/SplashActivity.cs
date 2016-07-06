@@ -26,4 +26,4 @@ namespace Mobet.Metting.Droid
             StartActivity(typeof(ADActivity));
         }
     }
-}
+} 

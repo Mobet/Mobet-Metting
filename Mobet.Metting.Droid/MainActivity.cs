@@ -39,7 +39,7 @@ namespace Mobet.Metting.Droid
             this.SupportFragmentManager
                 .BeginTransaction()
                 .Replace(Resource.Id.main_frame_content, new ConversaionFragment())
-                .Commit();
+                .Commit(); 
 
             SetBehindContentView(Resource.Layout.menu_frame_layout);
             this.SupportFragmentManager

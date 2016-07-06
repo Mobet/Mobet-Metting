@@ -35,7 +35,7 @@
         android:background="@drawable/login_input_bottom"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:paddingTop="10dp"
+        android:paddingTop="10dp" 
         android:paddingBottom="10dp" />
     <Button
         android:layout_width="fill_parent"

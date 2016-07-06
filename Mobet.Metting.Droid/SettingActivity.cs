@@ -24,4 +24,4 @@ namespace Mobet.Metting.Droid
             SetContentView(Resource.Layout.setting);
         }
     }
-}
+} 

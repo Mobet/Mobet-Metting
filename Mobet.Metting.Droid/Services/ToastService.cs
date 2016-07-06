@@ -20,7 +20,7 @@ namespace Mobet.Metting.Droid.Services
     public class ToastService : IToastService
     {
         public void Alert(string message)
-        {
+        { 
             var topActivity = Mvx.Resolve<IMvxAndroidCurrentTopActivity>();
             var context = topActivity.Activity;
 

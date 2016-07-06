@@ -16,7 +16,7 @@ using MvvmCross.Platform.Converters;
 namespace Mobet.Metting.Droid.Services.Converter
 {
     public class ResourceIdConverter : MvxValueConverter<string, int>
-    {
+    { 
         protected override int Convert(string value, Type targetType, object parameter, CultureInfo culture)
         {
             int resourceId = 0;

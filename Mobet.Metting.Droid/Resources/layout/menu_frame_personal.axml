@@ -22,7 +22,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <refractored.controls.CircleImageView
+                <refractored.controls.CircleImageView 
                     android:layout_width="48dp"
                     android:layout_height="48dp"
                     android:src="@drawable/avatar"
@@ -94,7 +94,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_gravity="center_vertical"
                 android:textSize="14dp"
-                android:textColor="#999999" />
+                android:textColor="#bbbbbb" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout

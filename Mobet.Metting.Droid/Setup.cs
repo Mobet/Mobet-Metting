@@ -28,7 +28,7 @@ namespace Mobet.Metting.Droid
 
         protected override IMvxApplication CreateApp()
         {
-            return new App();
+            return new App(); 
         }
         protected override void InitializeFirstChance()
         {

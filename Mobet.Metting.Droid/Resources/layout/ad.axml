@@ -21,4 +21,4 @@
         android:background="@drawable/login_button"
         android:textSize="14dp"
         android:id="@+id/button_ad_skip" />
-</RelativeLayout>
+</RelativeLayout> 

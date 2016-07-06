@@ -3,4 +3,4 @@
   <style name="Theme.DeviceDefaultLightNoActionBar" parent="android:Theme.DeviceDefault.Light.NoActionBar">
     <item name="android:windowBackground">@drawable/splash</item>
   </style>
-</resources>
+</resources> 

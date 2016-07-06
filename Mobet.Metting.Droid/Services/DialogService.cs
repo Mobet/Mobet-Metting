@@ -19,7 +19,7 @@ namespace Mobet.Metting.Droid.Services
     public class DialogService : IDialogService
     {
         public void Alert(string message, string title, string OkButtonText)
-        {
+        { 
 
             var topActivity = Mvx.Resolve<IMvxAndroidCurrentTopActivity>();
 
