@@ -510,6 +510,15 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f02002f
 			public const int splash = 2130837551;
 			
+			// aapt resource value: 0x7f020030
+			public const int splash_1 = 2130837552;
+			
+			// aapt resource value: 0x7f020031
+			public const int splash_2 = 2130837553;
+			
+			// aapt resource value: 0x7f020032
+			public const int splash_3 = 2130837554;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -529,80 +538,80 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f040001
 			public const int MvxBindingTagUnique = 2130968577;
 			
-			// aapt resource value: 0x7f040007
-			public const int button_ad_skip = 2130968583;
+			// aapt resource value: 0x7f04001f
+			public const int button_splash_skip = 2130968607;
 			
 			// aapt resource value: 0x7f040005
 			public const int fullscreen = 2130968581;
 			
-			// aapt resource value: 0x7f040019
-			public const int header = 2130968601;
-			
 			// aapt resource value: 0x7f040018
-			public const int header_container = 2130968600;
+			public const int header = 2130968600;
 			
-			// aapt resource value: 0x7f04001b
-			public const int icon = 2130968603;
+			// aapt resource value: 0x7f040017
+			public const int header_container = 2130968599;
+			
+			// aapt resource value: 0x7f04001a
+			public const int icon = 2130968602;
 			
 			// aapt resource value: 0x7f040003
 			public const int left = 2130968579;
 			
+			// aapt resource value: 0x7f04000f
+			public const int main_conversation_name = 2130968591;
+			
 			// aapt resource value: 0x7f040010
-			public const int main_conversation_name = 2130968592;
+			public const int main_conversation_say = 2130968592;
 			
 			// aapt resource value: 0x7f040011
-			public const int main_conversation_say = 2130968593;
-			
-			// aapt resource value: 0x7f040012
-			public const int main_conversation_time = 2130968594;
-			
-			// aapt resource value: 0x7f04000e
-			public const int main_frame_content = 2130968590;
-			
-			// aapt resource value: 0x7f040009
-			public const int main_frame_footer = 2130968585;
-			
-			// aapt resource value: 0x7f04000c
-			public const int main_frame_footer_call = 2130968588;
-			
-			// aapt resource value: 0x7f04000b
-			public const int main_frame_footer_contact = 2130968587;
-			
-			// aapt resource value: 0x7f04000a
-			public const int main_frame_footer_conversation = 2130968586;
+			public const int main_conversation_time = 2130968593;
 			
 			// aapt resource value: 0x7f04000d
-			public const int main_frame_footer_plugin = 2130968589;
+			public const int main_frame_content = 2130968589;
 			
 			// aapt resource value: 0x7f040008
-			public const int main_frame_header = 2130968584;
+			public const int main_frame_footer = 2130968584;
+			
+			// aapt resource value: 0x7f04000b
+			public const int main_frame_footer_call = 2130968587;
+			
+			// aapt resource value: 0x7f04000a
+			public const int main_frame_footer_contact = 2130968586;
+			
+			// aapt resource value: 0x7f040009
+			public const int main_frame_footer_conversation = 2130968585;
+			
+			// aapt resource value: 0x7f04000c
+			public const int main_frame_footer_plugin = 2130968588;
+			
+			// aapt resource value: 0x7f040007
+			public const int main_frame_header = 2130968583;
 			
 			// aapt resource value: 0x7f040006
 			public const int margin = 2130968582;
 			
-			// aapt resource value: 0x7f040013
-			public const int menu_fragment_common = 2130968595;
-			
-			// aapt resource value: 0x7f040015
-			public const int menu_frame_footer = 2130968597;
+			// aapt resource value: 0x7f040012
+			public const int menu_fragment_common = 2130968594;
 			
 			// aapt resource value: 0x7f040014
-			public const int menu_frame_header = 2130968596;
+			public const int menu_frame_footer = 2130968596;
+			
+			// aapt resource value: 0x7f040013
+			public const int menu_frame_header = 2130968595;
+			
+			// aapt resource value: 0x7f040015
+			public const int menu_frame_personal_button_setting = 2130968597;
 			
 			// aapt resource value: 0x7f040016
-			public const int menu_frame_personal_button_setting = 2130968598;
+			public const int menu_frame_personal_button_weather = 2130968598;
 			
-			// aapt resource value: 0x7f040017
-			public const int menu_frame_personal_button_weather = 2130968599;
+			// aapt resource value: 0x7f04000e
+			public const int ptr_wrapper = 2130968590;
 			
-			// aapt resource value: 0x7f04000f
-			public const int ptr_wrapper = 2130968591;
+			// aapt resource value: 0x7f040019
+			public const int pullDownProgressIndicator = 2130968601;
 			
-			// aapt resource value: 0x7f04001a
-			public const int pullDownProgressIndicator = 2130968602;
-			
-			// aapt resource value: 0x7f04001d
-			public const int reside_menu_main = 2130968605;
+			// aapt resource value: 0x7f04001c
+			public const int reside_menu_main = 2130968604;
 			
 			// aapt resource value: 0x7f040004
 			public const int right = 2130968580;
@@ -610,8 +619,14 @@ namespace Mobet.Metting.Droid
 			// aapt resource value: 0x7f040002
 			public const int selected_view = 2130968578;
 			
-			// aapt resource value: 0x7f04001c
-			public const int text = 2130968604;
+			// aapt resource value: 0x7f04001e
+			public const int splash_viewgroup = 2130968606;
+			
+			// aapt resource value: 0x7f04001d
+			public const int splash_viewpager = 2130968605;
+			
+			// aapt resource value: 0x7f04001b
+			public const int text = 2130968603;
 			
 			static Id()
 			{
@@ -643,49 +658,49 @@ namespace Mobet.Metting.Droid
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int ad = 2130903040;
+			public const int common_empty_view = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int common_empty_view = 2130903041;
+			public const int login = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int login = 2130903042;
+			public const int main = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int main = 2130903043;
+			public const int main_frame_call = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int main_frame_call = 2130903044;
+			public const int main_frame_contact = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int main_frame_contact = 2130903045;
+			public const int main_frame_conversation = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int main_frame_conversation = 2130903046;
+			public const int main_frame_conversation_item = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int main_frame_conversation_item = 2130903047;
+			public const int main_frame_plugin = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int main_frame_plugin = 2130903048;
+			public const int main_search_bar = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int main_search_bar = 2130903049;
+			public const int menu_frame_layout = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int menu_frame_layout = 2130903050;
+			public const int menu_frame_personal = 2130903050;
 			
 			// aapt resource value: 0x7f03000b
-			public const int menu_frame_personal = 2130903051;
+			public const int ptrsharp_header = 2130903051;
 			
 			// aapt resource value: 0x7f03000c
-			public const int ptrsharp_header = 2130903052;
+			public const int reside_menu_main = 2130903052;
 			
 			// aapt resource value: 0x7f03000d
-			public const int reside_menu_main = 2130903053;
+			public const int setting = 2130903053;
 			
 			// aapt resource value: 0x7f03000e
-			public const int setting = 2130903054;
+			public const int splash = 2130903054;
 			
 			static Layout()
 			{
