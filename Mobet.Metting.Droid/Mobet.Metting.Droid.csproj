@@ -18,9 +18,10 @@
     <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidSdkBuildToolsVersion>21.1.1</AndroidSdkBuildToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
+    <DebugSymbols>True</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Debug\</OutputPath>
@@ -29,6 +30,15 @@
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis />
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <Debugger>Xamarin</Debugger>
+    <AndroidEnableMultiDex>False</AndroidEnableMultiDex>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -41,6 +51,7 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Export" />
     <Reference Include="mscorlib" />
@@ -99,6 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\ConversaionAdapter.cs" />
+    <Compile Include="Application.cs" />
     <Compile Include="Fragments\CallFragment.cs" />
     <Compile Include="Fragments\ContactFragment.cs" />
     <Compile Include="Fragments\ConversaionFragment.cs" />
@@ -107,6 +119,15 @@
     <Compile Include="LoginActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receiver.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ReceiverHandlers\BaseHandler.cs" />
+    <Compile Include="ReceiverHandlers\MessageHandler.cs" />
+    <Compile Include="ReceiverHandlers\NotificationOpenHandler.cs" />
+    <Compile Include="ReceiverHandlers\NotificationReceivedHandler.cs" />
+    <Compile Include="ReceiverHandlers\ReceiverHandler.cs" />
+    <Compile Include="ReceiverHandlers\RegisrationHandler.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Services\Converter\ResourceIdConverter.cs" />
     <Compile Include="Services\DialogService.cs" />
@@ -200,6 +221,10 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Mobet.Droid.Bindings.JPush\Mobet.Droid.Bindings.JPush.csproj">
+      <Project>{ec4a01ec-99bc-4c59-914b-b5487510197f}</Project>
+      <Name>Mobet.Droid.Bindings.JPush</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Mobet.Droid.Components.AmazingRefresharp\Mobet.Droid.Components.AmazingRefresharp.csproj">
       <Project>{b6cf5919-8ad5-4c5a-ae9d-e2dd4cddc45c}</Project>
       <Name>Mobet.Droid.Components.AmazingRefresharp</Name>

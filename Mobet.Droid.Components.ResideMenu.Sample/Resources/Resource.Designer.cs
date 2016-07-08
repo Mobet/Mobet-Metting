@@ -110,47 +110,68 @@ namespace Mobet.Droid.Components.ResideMenu.Sample
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010003
-			public const int behind_offset = 2130771971;
-			
-			// aapt resource value: 0x7f010005
-			public const int behind_scroll_scale = 2130771973;
+			// aapt resource value: 0x7f010000
+			public const int MvxBind = 2130771968;
 			
 			// aapt resource value: 0x7f010004
-			public const int behind_width = 2130771972;
+			public const int MvxDropDownItemTemplate = 2130771972;
 			
-			// aapt resource value: 0x7f01000b
-			public const int fade_degree = 2130771979;
+			// aapt resource value: 0x7f010005
+			public const int MvxGroupItemTemplate = 2130771973;
 			
-			// aapt resource value: 0x7f01000a
-			public const int fade_enabled = 2130771978;
-			
-			// aapt resource value: 0x7f010000
-			public const int mode = 2130771968;
-			
-			// aapt resource value: 0x7f01000d
-			public const int selector_drawable = 2130771981;
-			
-			// aapt resource value: 0x7f01000c
-			public const int selector_enabled = 2130771980;
-			
-			// aapt resource value: 0x7f010008
-			public const int shadow_drawable = 2130771976;
-			
-			// aapt resource value: 0x7f010009
-			public const int shadow_width = 2130771977;
-			
-			// aapt resource value: 0x7f010006
-			public const int touch_mode_above = 2130771974;
-			
-			// aapt resource value: 0x7f010007
-			public const int touch_mode_behind = 2130771975;
+			// aapt resource value: 0x7f010003
+			public const int MvxItemTemplate = 2130771971;
 			
 			// aapt resource value: 0x7f010001
-			public const int view_above = 2130771969;
+			public const int MvxLang = 2130771969;
+			
+			// aapt resource value: 0x7f010006
+			public const int MvxSource = 2130771974;
 			
 			// aapt resource value: 0x7f010002
-			public const int view_behind = 2130771970;
+			public const int MvxTemplate = 2130771970;
+			
+			// aapt resource value: 0x7f01000a
+			public const int behind_offset = 2130771978;
+			
+			// aapt resource value: 0x7f01000c
+			public const int behind_scroll_scale = 2130771980;
+			
+			// aapt resource value: 0x7f01000b
+			public const int behind_width = 2130771979;
+			
+			// aapt resource value: 0x7f010012
+			public const int fade_degree = 2130771986;
+			
+			// aapt resource value: 0x7f010011
+			public const int fade_enabled = 2130771985;
+			
+			// aapt resource value: 0x7f010007
+			public const int mode = 2130771975;
+			
+			// aapt resource value: 0x7f010014
+			public const int selector_drawable = 2130771988;
+			
+			// aapt resource value: 0x7f010013
+			public const int selector_enabled = 2130771987;
+			
+			// aapt resource value: 0x7f01000f
+			public const int shadow_drawable = 2130771983;
+			
+			// aapt resource value: 0x7f010010
+			public const int shadow_width = 2130771984;
+			
+			// aapt resource value: 0x7f01000d
+			public const int touch_mode_above = 2130771981;
+			
+			// aapt resource value: 0x7f01000e
+			public const int touch_mode_behind = 2130771982;
+			
+			// aapt resource value: 0x7f010008
+			public const int view_above = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int view_behind = 2130771977;
 			
 			static Attribute()
 			{
@@ -282,32 +303,38 @@ namespace Mobet.Droid.Components.ResideMenu.Sample
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040005
-			public const int content_common_fragment = 2130968581;
-			
-			// aapt resource value: 0x7f040003
-			public const int fullscreen = 2130968579;
+			// aapt resource value: 0x7f040000
+			public const int MvvmCrossTagId = 2130968576;
 			
 			// aapt resource value: 0x7f040001
-			public const int left = 2130968577;
-			
-			// aapt resource value: 0x7f040006
-			public const int main_btn_changing_fragments = 2130968582;
-			
-			// aapt resource value: 0x7f040004
-			public const int margin = 2130968580;
+			public const int MvxBindingTagUnique = 2130968577;
 			
 			// aapt resource value: 0x7f040007
-			public const int menu_fragment_common = 2130968583;
+			public const int content_common_fragment = 2130968583;
+			
+			// aapt resource value: 0x7f040005
+			public const int fullscreen = 2130968581;
+			
+			// aapt resource value: 0x7f040003
+			public const int left = 2130968579;
 			
 			// aapt resource value: 0x7f040008
-			public const int reside_menu_main = 2130968584;
+			public const int main_btn_changing_fragments = 2130968584;
+			
+			// aapt resource value: 0x7f040006
+			public const int margin = 2130968582;
+			
+			// aapt resource value: 0x7f040009
+			public const int menu_fragment_common = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int reside_menu_main = 2130968586;
+			
+			// aapt resource value: 0x7f040004
+			public const int right = 2130968580;
 			
 			// aapt resource value: 0x7f040002
-			public const int right = 2130968578;
-			
-			// aapt resource value: 0x7f040000
-			public const int selected_view = 2130968576;
+			public const int selected_view = 2130968578;
 			
 			static Id()
 			{
@@ -479,21 +506,59 @@ namespace Mobet.Droid.Components.ResideMenu.Sample
 		public partial class Styleable
 		{
 			
-			public static int[] reside_menu = new int[] {
+			public static int[] MvxBinding = new int[] {
 					2130771968,
-					2130771969,
-					2130771970,
+					2130771969};
+			
+			// aapt resource value: 0
+			public const int MvxBinding_MvxBind = 0;
+			
+			// aapt resource value: 1
+			public const int MvxBinding_MvxLang = 1;
+			
+			public static int[] MvxControl = new int[] {
+					2130771970};
+			
+			// aapt resource value: 0
+			public const int MvxControl_MvxTemplate = 0;
+			
+			public static int[] MvxExpandableListView = new int[] {
+					2130771973};
+			
+			// aapt resource value: 0
+			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
+			
+			public static int[] MvxImageView = new int[] {
+					2130771974};
+			
+			// aapt resource value: 0
+			public const int MvxImageView_MvxSource = 0;
+			
+			public static int[] MvxListView = new int[] {
 					2130771971,
-					2130771972,
-					2130771973,
-					2130771974,
+					2130771972};
+			
+			// aapt resource value: 1
+			public const int MvxListView_MvxDropDownItemTemplate = 1;
+			
+			// aapt resource value: 0
+			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] reside_menu = new int[] {
 					2130771975,
 					2130771976,
 					2130771977,
 					2130771978,
 					2130771979,
 					2130771980,
-					2130771981};
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985,
+					2130771986,
+					2130771987,
+					2130771988};
 			
 			// aapt resource value: 3
 			public const int reside_menu_behind_offset = 3;

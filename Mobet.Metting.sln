@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobet.Metting.Droid", "Mobet.Metting.Droid\Mobet.Metting.Droid.csproj", "{68809B9A-516F-4B1D-91AB-9C033AF74B64}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobet.Droid.Components.ResideMenu", "Mobet.Droid.Components.ResideMenu\Mobet.Droid.Components.ResideMenu.csproj", "{CBAE71E6-868B-4CE1-8E5C-4FA1F4EE06B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobet.Droid.Components.ResideMenu.Sample", "Mobet.Droid.Components.ResideMenu.Sample\Mobet.Droid.Components.ResideMenu.Sample.csproj", "{F3B5A71C-25DD-43A7-83F7-E071DB227D83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobet.Droid.Bindings.JPush", "Mobet.Droid.Bindings.JPush\Mobet.Droid.Bindings.JPush.csproj", "{EC4A01EC-99BC-4C59-914B-B5487510197F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,6 +175,30 @@ Global
 		{F3B5A71C-25DD-43A7-83F7-E071DB227D83}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{F3B5A71C-25DD-43A7-83F7-E071DB227D83}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{F3B5A71C-25DD-43A7-83F7-E071DB227D83}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Release|iPhone.Build.0 = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{EC4A01EC-99BC-4C59-914B-B5487510197F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
